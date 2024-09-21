@@ -1,0 +1,164 @@
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.list-section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 600px;
+}
+
+.list-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.service-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-item {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.service-item:hover {
+  background-color: #f0f0f0;
+}
+
+.service-name {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin: 0 0 10px;
+}
+
+.service-description {
+  color: #555;
+  margin: 5px 0;
+}
+
+.service-price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-button,
+.delete-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  align-items: center;
+}
+
+.service-form {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.service-form h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.service-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.service-form input {
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.service-form button {
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #5da7f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 50%;
+}
+
+.service-form button:hover {
+  background-color: #0056b3;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
